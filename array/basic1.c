@@ -7,4 +7,4 @@ int main()
         sub[i]=i;
         printf("\n%d",sub[i]);
     }
-}
+} 
