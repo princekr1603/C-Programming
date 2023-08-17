@@ -10,7 +10,7 @@ int main()
         {
             if(arr[i]+arr[j]==x){
                 totalpairs++;
-                printf("(%d%d)\n",arr[i],arr[j]);
+                printf("(%d,%d)\n",arr[i],arr[j]);
             }       
         }
         
