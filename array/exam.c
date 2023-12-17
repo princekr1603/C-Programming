@@ -40,8 +40,8 @@ int main() {
     insertNodeAtEnd(&head, 20);
     insertNodeAtEnd(&head, 30);
     insertNodeAtEnd(&head, 40);
-    printf("Linked List: ");
-    displayList(head);
 
+    printf("linkedlist:");
+   displayList(head);
     return 0;
 }

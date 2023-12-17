@@ -1,16 +1,24 @@
 #include<stdio.h>
-int main(){
-    int n;
-    printf("enter an even number:");
-    scanf("%d",&n);
-    if(n%2!=0 || n<=0){
-        printf("please enter even number\n");
-        return 1;
-    }
-    printf("ascending even numbers up to %d:\n",n);
-    for(int i=2;i<=n;i+=2){
-        printf("%d ",i);
-    }
-    printf("\n");
-    return 0;
+#include<conio.h>
+void main()
+{
+     int ar[100],i,n;
+
+     printf("Enter the size of the array \n");
+     scanf("%d",&n);
+
+     printf("Enter the elements of the array \n");
+     for(i=0; i<n; i++)
+     {
+           scanf("%d",&ar[i]);
+     }
+
+     printf("Even numbers in the array are - ");
+     for(i=0;i<n;i++)
+     {
+           if(ar[i]%2==0)
+           {
+                 printf("%d \t",ar[i]);
+           }
+     }
 }
